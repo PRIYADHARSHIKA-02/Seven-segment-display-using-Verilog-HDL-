@@ -8,24 +8,32 @@ Computer system with a suitable operating system.
 ## Procedure
 
 Launch Vivado 2023.1:
+
 Open Vivado and create a new project.
 
 Design the Verilog Code:
+
 Write the Verilog code for the seven-segment display, defining the logic that maps a 4-bit binary input to the corresponding segments (a to g) of the display.
 
 Create the Testbench:
-Write a testbench to simulate the seven-segment display behavior. The testbench should apply various 4-bit input values and monitor the corresponding output on the seven-segment display.
+
+Write a testbench to simulate the seven-segment display behavior. The testbench should apply various 4-bit input values and monitor the corresponding output on 
+the seven-segment display.
 
 Add the Verilog Files:
+
 Add both the design module and the testbench in the Vivado project.
 
 Run Simulation:
+
 Run the behavioral simulation to verify the output. Ensure the seven-segment display behaves correctly for binary inputs 0000 to 1001 (decimal 0 to 9).
 
 Observe the Waveforms:
+
 Analyze the output waveforms in the simulation window, and verify that the correct segments light up for each digit.
 
 Save and Document Results:
+
 Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
 
 Diagram
